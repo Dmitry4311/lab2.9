@@ -13,7 +13,7 @@ def min_max(args):
                 if value == ')':
                     return True
 
-            return False
+     return min_max(args)
 
 
 if __name__ == '__main__':
